@@ -24,7 +24,7 @@
             
             $message = "You Can Log In Now &raquo; "."<a href=\"login.php\">Log In</a>"."<br>";
             }else {
-                $message = "Please Fix The Following Errors and thanks";
+                $message = "Please Fix The Following Errors";
             }
             
         } // end of isset($_POST['submit'])
