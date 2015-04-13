@@ -2,6 +2,8 @@
 <?php require_once("../includes/db_connect.php"); ?>
 <?php require_once("../includes/functions.php"); ?>
 
+// check the session
+
 <?php
 if(empty($_SESSION['username'])) {
     redirect_to("login.php");
