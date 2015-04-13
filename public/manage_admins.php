@@ -4,7 +4,7 @@
 
 <?php
 if(empty($_SESSION['username'])) {
-    redirect_to("login2.php");
+    redirect_to("login.php");
 }
 ?>
 
