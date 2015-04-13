@@ -1,7 +1,5 @@
 <?php
 
-// Comment By Ahmed Ashraf
-
 function redirect_to ($destination){
     header("Location: ".$destination);
 };
